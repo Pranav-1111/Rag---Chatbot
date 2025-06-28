@@ -1,0 +1,12 @@
+requirements.txt
+streamlit
+langchain
+huggingface-hub
+transformers
+sentence-transformers
+faiss-cpu
+PyPDF2
+PyMuPDF
+python-dotenv
+tqdm
+pandas
