@@ -22,16 +22,25 @@ Streamlit	Frontend UI for interacting with bot
 PyMuPDF	PDF text extraction
 
 🗂️ Folder Structure :
+
 📁 Q&A Chatbot/
-│
+
 ├── 1_ingest_data.py        # Load + chunk + embed + save to FAISS
+
 ├── 2_chat_with_bot.py      # Query and respond using LangChain
+
 ├── data/                   # Folder containing PDF files
+
 ├── faiss_index/            # Saved vectorstore DB
+
 ├── chatbot_ui.py           # Streamlit-based chatbot interface
+
 ├── requirements.txt
+
 └── README.md
+
 🧪 Demo
+
 Ask questions like:
 
 "What is Pranav Bhatt's internship experience?"
@@ -44,22 +53,31 @@ Ask questions like:
 
 🚀 Getting Started
 Clone the repository:
+
 git clone https://github.com/Pranav-1111/rag-chatbot
+
 cd rag-chatbot
 
 Install dependencies:
+
 pip install -r requirements.txt
+
 Put your document (e.g., resume.pdf) inside the /data folder.
 
 Ingest the data:
+
 python 1_ingest_data.py
+
 Run the chatbot:
 
 streamlit run chatbot_ui.py
+
 📄 PDF Used
+
 You can replace the default PDF file (e.g., bhatt_pranav.pdf) in the /data folder with any document you want to use as a knowledge base.
 
 🌟 Highlights
+
 Built from scratch using open-source stack
 
 Fully local deployment with no paid APIs
